@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+
+    >
+    <!--    android:text="@string/Settings"-->
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Settings"
+            android:fontFamily="@font/mtd_anydore"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/iv_ok"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_btn_ok_waiting"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_password_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp"
+        android:layout_below="@id/rl_header"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password"
+            android:fontFamily="@font/mtd_anydore"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_create_new_password"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_btn_set_password_waiting_vi"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_shake_on_off_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingHorizontal="10dp"
+        android:layout_below="@id/rl_password_container"
+        >
+        <TextView
+            android:id="@+id/tv_title_shake_your_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shake_your_phone"
+            android:fontFamily="@font/mtd_anydore"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shake_your_phone_to_roll_the_dice"
+            android:textColor="@color/grey700"
+            android:layout_below="@+id/tv_title_shake_your_phone"
+            android:layout_marginTop="-20dp"
+            />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_shake_on_off"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_btn_set_password_waiting_vi"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:theme="@style/Switch_Compat_Theme"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_watch_ad_container"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_shake_on_off_container"
+        >
+        <TextView
+            android:id="@+id/tv_title_rewarded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Amount"
+            android:fontFamily="@font/mtd_anydore"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_rewarded_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/mtd_anydore"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/tv_title_rewarded"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/iv_get_reward"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_btn_get_waiting_vi"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+    <!-- ========================================================= -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cheat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_watch_ad_container"
+        android:layout_above="@id/fl_ad_view_container"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl_ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:minWidth="320dp"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

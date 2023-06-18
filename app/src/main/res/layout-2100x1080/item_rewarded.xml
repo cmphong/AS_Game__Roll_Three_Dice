@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_argb_33ffffff"
+    android:elevation="20dp"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    android:id="@+id/rl_item_container">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/iv_cheat_dice_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_7"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/iv_cheat_dice_center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_7"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="10dp"
+            />
+        <ImageView
+            android:id="@+id/iv_cheat_dice_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_7"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/iv_cheat_stop"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_stop_enable"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/iv_cheat_play"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_play_enable"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="10dp"
+            />
+        <ImageView
+            android:id="@+id/iv_cheat_clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_delete"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

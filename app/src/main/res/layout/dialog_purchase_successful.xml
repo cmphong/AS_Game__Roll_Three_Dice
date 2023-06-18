@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/rl_background"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white_radius_10"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/You_are_all_set"
+            android:textSize="28sp"
+            android:textColor="@color/grey200"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Your_purchase_was_successful"
+            android:textColor="@color/grey200"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_dialog_OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_green_raidus_10"
+            android:layout_marginTop="40dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ic_check_mark"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_green_circle_border_2"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_check_mark_white"
+            />
+    </LinearLayout>
+</RelativeLayout>

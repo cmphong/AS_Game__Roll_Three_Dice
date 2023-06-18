@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roll Three Dice</string>
+
+    <!-- ActivityMain.java =============================================== -->
+
+
+    <!-- Activity_Settings.java =============================================== -->
+    <string name="Password_do_not_match">Passwords does not match</string>
+    <string name="Passwords_must_be_at_least_6_characters">Passwords must be at least 6 characters</string>
+    <string name="Your_password_has_been_reset_successfully">Your password has been reset successfully!</string>
+    <string name="New_password_set_successfully">New passwords set successfully!</string>
+    <string name="Please_wait">Please wait...</string>
+    <string name="Loading_Rewarded_Ad">Loading Rewarded Ad...</string>
+    <string name="Please_try_again_later">Please try again later!</string>
+    <string name="Please_check_your_internet_connection_and_try_again">Please check your internet connection and try again.</string>
+
+    <!-- dialog_purchase_processing.xml =============================================== -->
+    <string name="Please_wait_We_are_processing_your_order">Please wait, We are processing your order</string>
+
+    <!-- dialog_err_purchased.xml =============================================== -->
+    <string name="Your_purchase_could_not_be_completed">Your purchase could not be completed</string>
+
+    <!-- dialog_successful_purchased.xml =============================================== -->
+    <string name="Thank_you">Thank you</string>
+    <string name="You_are_all_set">"You\'re all set"</string>
+    <string name="OOPS">OOPS!!</string>
+    <string name="Your_purchase_was_successful">Your purchase was successful!</string>
+
+    <!-- dialog_login.xml =============================================== -->
+    <string name="Forget_password"><u>Forget Password!</u></string>
+
+    <!-- dialog_disconnect.xml =============================================== -->
+    <string name="Connection_Error">Connection Error</string>
+
+
+    <!-- dialog_select_animal.xml =============================================== -->
+    <string name="Random">Random</string>
+    <string name="Deer">Deer</string>
+    <string name="Chicken">Chicken</string>
+    <string name="Grab">Grab</string>
+    <string name="Fish">Fish</string>
+    <string name="Gourd">Gourd</string>
+    <string name="Shrimp">Shrimp</string>
+
+    <!-- dialog_watch_ad.xml =============================================== -->
+    <string name="To_continue_You_need_to_watch_a_promotion_video">To continue You need to watch a promotion video. Continue?</string>
+
+
+    <!-- activity_purchases.xml =============================================== -->
+    <string name="Shop">Shop</string>
+    <string name="Free">Free</string>
+    <string name="add_one_cheat">Add 1 Cheat</string>
+    <string name="add_three_cheat">Add 3 Cheat</string>
+    <string name="add_seven_cheat">Add 7 Cheat</string>
+    <string name="add_twenty_cheat">Add 20 Cheat</string>
+    <string name="Successfully_Purchased">Successfully purchased!</string>
+    <string name="You_have_successfully_purchased_product">You have successfully purchased product</string>
+    <string name="You_have_just_bought">You have just bought </string>
+    <string name="cheat_for"> cheat for </string>
+    <string name="USD"> USD </string>
+    <string name="You_have_bought_3_cheat_for">You have bought 3 cheat for</string>
+    <string name="You_have_bought_7_cheat_for">You have bought 7 cheat for</string>
+    <string name="You_have_bought_20_cheat_for">You have bought 20 cheat for</string>
+    <string name="You_have_bought_30_cheat_for">You have bought 30 cheat for</string>
+    <string name="Last_purchase">Last purchase:</string>
+    <string name="You_can_find_your_purchase_history">You can find your purchase history on Google Play Store</string>
+    <string name="_3_cheats">3 cheats</string>
+    <string name="_7_cheats">7 cheats</string>
+    <string name="_20_cheats">20 cheats</string>
+    <string name="_30_cheats">30 cheats</string>
+
+
+    <!-- activity_settings.xml =============================================== -->
+    <string name="Settings">Settings</string>
+    <string name="Password">Password</string>
+    <string name="Shake_your_phone_to_roll_the_dice">Shake your phone to roll the dice</string>
+    <string name="Shake_your_phone">Shake your phone</string>
+    <string name="Amount">Amount</string>
+    <string name="Roll_Dice">Roll Dice</string>
+    <string name="Login_successfully">Login successfully!</string>
+
+
+    <!-- dialog_create_new_password.xml =============================================== -->
+    <string name="Incorrect_Password">Incorrect Password, Please try add</string>
+    <string name="Login">Login</string>
+    <string name="New_password">New password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Recovery_Key">Recovery Key</string>
+    <string name="At_least_6_characters">At least 6 characters</string>
+    <string name="Done">Done</string>
+    <string name="Set_password">Set Password</string>
+
+    <!-- activity_restore_password.xml =============================================== -->
+    <string name="Reset">Reset</string>
+    <string name="Reset_Password">Reset Password</string>
+    <string name="Your_recovery_key">Your recovery key</string>
+    <string name="Incorrect_Key_Please_try_again">Incorrect Key, Please try again</string>
+
+
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+
+
+    <string name="tutorial">You also can shake your phone to shuffle</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Shake_to_roll_dice">Shake to roll dice</string>
+</resources>

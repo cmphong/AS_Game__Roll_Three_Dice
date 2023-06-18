@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green600"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:id="@+id/ll_snackbar_container">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_check_circle_white"
+        />
+    <TextView
+        android:id="@+id/tv_snackbar_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/New_password_set_successfully"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        />
+
+</LinearLayout>

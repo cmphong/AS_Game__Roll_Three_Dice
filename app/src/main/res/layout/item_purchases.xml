@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_name_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_three_cheat"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/mtd_anydore"
+        android:layout_centerVertical="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_btn_buy_cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_btn_waiting_red"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/tv_price_purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.000"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
