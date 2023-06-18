@@ -125,7 +125,7 @@ public class Activity_IAP extends AppCompatActivity {
     String LOCALHOST_2 = "http://192.168.111.254:5001/fish-prawn-crab-2022-speci-248/us-central1";
     String LOCALHOST_3 = "http://10.0.2.2:5001/fir-emulator-tester-86145/us-central1";
     String LOCALHOST_4 = "http://10.0.2.2:5001/fish-prawn-crab-2022-speci-248/us-central1";
-    String FIREBASEHOST = "https://us-central1-fish-prawn-crab-2022-speci-248.cloudfunctions.net";
+    String FIREBASEHOST = BuildConfig.FIREBASEHOST;
     String URL = FIREBASEHOST;
 
     private MyBroadcastReceiver myBroadcastReceiver;
